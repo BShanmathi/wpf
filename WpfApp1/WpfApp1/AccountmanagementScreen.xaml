@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfApp1.AccountmanagementScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="AccountmanagementScreen" Height="450" Width="800">
+    <Grid>
+        <Grid Background="LightGray">
+        </Grid>
+        <Button x:Name="myButton"
+        Content="Create Account"
+        Foreground="Red"
+        Background="Yellow"
+        Width="100"
+        Height="30"
+        Click="myButton_Click" Margin="350,147,350,257" />
+        <Button x:Name="myButton1"
+        Content="Modify account"
+        Foreground="Red"
+        Background="Yellow"
+        Width="100"
+        Height="30"
+        Click="myButton_Click" Margin="183,253,517,151" />
+        <Button x:Name="myButton2"
+        Content="View Account"
+        Foreground="Red"
+        Background="Yellow"
+        Width="100"
+        Height="30"
+        Click="myButton_Click" Margin="532,253,168,151" />
+    </Grid>
+</Window>

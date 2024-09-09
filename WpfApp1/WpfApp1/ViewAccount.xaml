@@ -1,0 +1,82 @@
+﻿<Window x:Class="WpfApp1.ViewAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="ViewAccount" Height="450" Width="800">
+    <Grid>
+        <Grid Background="LightGray">
+        </Grid>
+        <Button x:Name="myButton"
+Content="Account Number"
+Foreground="Red"
+Background="Yellow"
+Width="100"
+Height="30"
+Click="myButton_Click" Margin="350,27,350,377" />
+        <Button x:Name="myButton1"
+Content="Account Type"
+Foreground="Red"
+Background="Yellow"
+Width="100"
+Height="30"
+Click="myButton_Click" Margin="350,62,350,342" />
+        <Button x:Name="myButton0"
+Content="Account Holder NAME"
+Foreground="Red"
+Background="Yellow"
+Height="30"
+Click="myButton_Click" Margin="350,97,307,307" />
+        <Button x:Name="myButton2"
+Content="Date Of Birth"
+Foreground="Red"
+Background="Yellow"
+Width="100"
+Height="30"
+Click="myButton_Click" Margin="350,132,350,272" />
+        <Button x:Name="myButton3"
+Content="Gender"
+Foreground="Red"
+Background="Yellow"
+Width="100"
+Height="30"
+Click="myButton_Click" Margin="350,167,350,237" />
+        <Button x:Name="myButton4"
+Content="Pan Number"
+Foreground="Red"
+Background="Yellow"
+Width="100"
+Height="30"
+Click="myButton_Click" Margin="350,202,350,202" />
+        <Button x:Name="myButton5"
+Content="Address"
+Foreground="Red"
+Background="Yellow"
+Width="100"
+Height="30"
+Click="myButton_Click" Margin="350,237,350,167" />
+        <Button x:Name="myButton6"
+Content="Mobile Number"
+Foreground="Red"
+Background="Yellow"
+Width="100"
+Height="30"
+Click="myButton_Click" Margin="350,272,350,132" />
+        <Button x:Name="myButton7"
+Content="Save"
+Foreground="Red"
+Background="Yellow"
+Width="100"
+Height="30"
+Click="myButton_Click" Margin="188,329,512,75" />
+        <Button x:Name="myButton8"
+Content="Clear"
+Foreground="Red"
+Background="Yellow"
+Width="100"
+Height="30"
+Click="myButton_Click" Margin="560,329,140,75" />
+    </Grid>
+</Window>
